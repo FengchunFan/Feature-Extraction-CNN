@@ -3,6 +3,7 @@
 Performing feature extraction using pretrained VGG16 CNN model
 ##
 DataSet (Caltech-101): https://data.caltech.edu/records/mzrjq-6wc02
+
 The Objects directory contains image data from Caltech-101 dataset
 ##
 Referenced Resources:
