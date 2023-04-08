@@ -13,3 +13,5 @@ https://towardsdatascience.com/extract-features-visualize-filters-and-feature-ma
 https://www.kaggle.com/code/tolgahancepel/feature-extraction-and-fine-tuning-using-vgg16/notebook
 
 https://colab.research.google.com/github/ml4a/ml4a/blob/master/examples/info_retrieval/image_search.ipynb
+
+https://keras.io/api/applications/vgg/
