@@ -2,7 +2,7 @@
 
 Performing feature extraction using pretrained VGG16 CNN model
 ##
-DataSet: https://data.caltech.edu/records/mzrjq-6wc02
+DataSet (Caltech-101): https://data.caltech.edu/records/mzrjq-6wc02
 ##
 Referenced Resources:
 
