@@ -28,6 +28,7 @@ def load_image(path):
 
 from tensorflow.keras.preprocessing import image
 
+'''
 # load an image to test the functionality of load_image function
 # output img is the image loaded from input path
 # x is the Numpy array representation of the input image, it has shape of (1, height, width, channels)
@@ -38,5 +39,8 @@ print("data type: ", x.dtype)
 plt.imshow(img)
 plt.title("sample image from dataset")
 plt.show()
+'''
 
-
+'''
+ewecsd
+'''
