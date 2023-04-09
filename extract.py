@@ -28,19 +28,22 @@ def load_image(path):
 
 from tensorflow.keras.preprocessing import image
 
-'''
 # load an image to test the functionality of load_image function
 # output img is the image loaded from input path
-# x is the Numpy array representation of the input image, it has shape of (1, height, width, channels)
-img, x = load_image("C:/study/Github_Project/Feature-Extraction-CNN/Objects/octopus/image_0030.jpg")
+# x is the Numpy array representation of the input image, it has shape of (1, height, width, channels)4
+img, x = load_image("C:/study/Github_Project/Feature-Extraction-CNN/Objects/butterfly/image_0001.jpg")
 print("shape of x: ", x.shape)
-print("data type: ", x.dtype)
-#print("x: ", x)
-plt.imshow(img)
-plt.title("sample image from dataset")
-plt.show()
-'''
+# print("data type: ", x.dtype)
+# print("x: ", x)
+# plt.imshow(img)
+# plt.title("sample image from dataset")
+# plt.show()
 
-'''
-ewecsd
-'''
+# Predict the class of the image through VGG16 model using built in function
+# input will be Numpy array x, which we extracted previously
+# using [0] to output best prediction
+# _ is needed because first argument being returned is label and we don't need that
+predictions = model.predict(x)
+for _, prediction, probability in decode_predictions(predictions)[0]:
+    print("For sample input x, model predicted it to be {} with probability {:.3%}".format(prediction, probability))
+
