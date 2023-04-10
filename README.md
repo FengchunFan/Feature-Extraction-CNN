@@ -8,7 +8,7 @@ The Objects directory contains image data from Caltech-101 dataset
 ##
 Referenced Resources:
 
-https://towardsdatascience.com/extract-features-visualize-filters-and-feature-maps-in-vgg16-and-vgg19-cnn-models-d2da6333edd0
+https://www.mygreatlearning.com/blog/feature-extraction-in-image-processing/
 
 https://www.kaggle.com/code/tolgahancepel/feature-extraction-and-fine-tuning-using-vgg16/notebook
 
