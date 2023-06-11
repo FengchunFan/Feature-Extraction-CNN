@@ -40,7 +40,7 @@ from tensorflow.keras.preprocessing import image
 # input will be Numpy array x, which we extracted previously
 # using [0] to output best prediction
 # _ is needed because first argument being returned is label and we don't need that
-paths = ["C:/study/Github_Project/Feature-Extraction-CNN/Objects/butterfly/image_0001.jpg", "C:/study/Github_Project/Feature-Extraction-CNN/Objects/crayfish/image_0015.jpg"]
+paths = ["C:/study/Research/Professor_Ucr_Jia_Chen/Feature-Extraction-CNN/Objects/butterfly/image_0001.jpg", "C:/study/Research/Professor_Ucr_Jia_Chen/Feature-Extraction-CNN/Objects/crayfish/image_0015.jpg"]
 images = load_images(paths)
 for single_image in images:
     print("shape of image1: ", single_image[1].shape)
