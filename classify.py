@@ -44,7 +44,7 @@ def load_images(paths):
 # using [0] to output best prediction
 # _ is needed because first argument being returned is label and we don't need that
 paths = []
-paths.append("C:/study/Research/Professor_Ucr_Jia_Chen/Feature-Extraction-CNN/Objects/garfield/image_0002.jpg")
+paths.append("C:/study/Research/Professor_Ucr_Jia_Chen/Feature-Extraction-CNN/Objects/starfish/image_0001.jpg")
 paths.append("C:/study/Research/Professor_Ucr_Jia_Chen/Feature-Extraction-CNN/Objects/panda/image_0001.jpg")
 images = load_images(paths)
 for single_image in images:

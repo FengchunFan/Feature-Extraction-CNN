@@ -12,6 +12,6 @@ Referenced Resources:
 
 https://www.mygreatlearning.com/blog/feature-extraction-in-image-processing/
 
-https://www.kaggle.com/code/tolgahancepel/feature-extraction-and-fine-tuning-using-vgg16/notebook
-
 https://keras.io/api/applications/vgg/
+
+https://www.youtube.com/watch?v=IuoEiemAuIY
