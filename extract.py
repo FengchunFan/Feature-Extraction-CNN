@@ -40,13 +40,19 @@ from tensorflow.keras.preprocessing import image
 # input will be Numpy array x, which we extracted previously
 # using [0] to output best prediction
 # _ is needed because first argument being returned is label and we don't need that
-paths = ["C:/study/Research/Professor_Ucr_Jia_Chen/Feature-Extraction-CNN/Objects/butterfly/image_0001.jpg", "C:/study/Research/Professor_Ucr_Jia_Chen/Feature-Extraction-CNN/Objects/crayfish/image_0015.jpg"]
+paths = []
+paths.append("C:/study/Research/Professor_Ucr_Jia_Chen/Feature-Extraction-CNN/Objects/butterfly/image_0002.jpg")
+paths.append("C:/study/Research/Professor_Ucr_Jia_Chen/Feature-Extraction-CNN/Objects/crayfish/image_0003.jpg")
 images = load_images(paths)
 for single_image in images:
-    print("shape of image1: ", single_image[1].shape)
+    print("shape of image: ", single_image[1].shape)
     plt.imshow(single_image[0])
     plt.show()
     predictions = model.predict(single_image[1])
+    prediction_list = []
     for _, prediction, probability in decode_predictions(predictions)[0]:
         print("For the input image, model predicted it to be {} with probability {:.3%}".format(prediction, probability))
+        prediction_list.append(prediction)
+    print("The highest possible feature extraction from the image is: {}".format(prediction_list[0]))
+    print()
 
